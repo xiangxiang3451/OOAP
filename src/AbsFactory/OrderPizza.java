@@ -30,10 +30,6 @@ public class OrderPizza {
             }
         }while (true);
     }
-
-
-
-
     //获取用户希望订购的披萨
     private String getType(){
         try {
@@ -44,7 +40,6 @@ public class OrderPizza {
         }catch (IOException e){
             e.printStackTrace();
             return "";
-
         }
     }
 }
