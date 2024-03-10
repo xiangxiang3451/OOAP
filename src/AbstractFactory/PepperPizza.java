@@ -1,6 +1,6 @@
-package originalcode;
+package AbstractFactory;
 
-public abstract class Pizza {
+public abstract class PepperPizza {
     public String name;
 
     public  abstract  void prepare();

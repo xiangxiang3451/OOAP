@@ -1,6 +1,6 @@
-package FactoryMethod;
+package AbstractFactory;
 
-public abstract class Pizza {
+public abstract class CheesePizza {
     public String name;
 
     public  abstract  void prepare();
